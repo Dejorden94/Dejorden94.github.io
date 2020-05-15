@@ -173,6 +173,7 @@ footer {
 
 /*Hieronder vindt je de css voor de werk tab.*/
 #bodyWerk{
+  overflow: scroll;
   height: unset;
   background: linear-gradient(#6e4b99, #27358a);;
 }
