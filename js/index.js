@@ -9,11 +9,14 @@ function popclick (){
 document.getElementById("PopUpAbout").style.display = "block";
 document.getElementById("popArt").style.display = "block";
 document.getElementById("closeButton").style.display = "block";
+document.getElementById("externalLinkAbout").style.display = "block";
 }
 function popdisap (){
 document.getElementById("PopUpAbout").style.display = "none";
 document.getElementById("popArt").style.display = "none";
 document.getElementById("closeButton").style.display = "none";
+document.getElementById("externalLinkAbout").style.display = "none";
+
 }
 
 document.getElementById('IconWerk').addEventListener('click', popaboutclick);
@@ -23,11 +26,13 @@ function popaboutclick (){
 document.getElementById("PopUpWerk").style.display = "block";
 document.getElementById("popArtWerk").style.display = "block";
 document.getElementById("closeButtonWerk").style.display = "block";
+document.getElementById("externalLink").style.display = "block";
 }
 function popaboutdisap (){
 document.getElementById("PopUpWerk").style.display = "none";
 document.getElementById("popArtWerk").style.display = "none";
 document.getElementById("closeButtonWerk").style.display = "none";
+document.getElementById("externalLink").style.display = "none";
 }
 
 document.getElementById('linkdIn').addEventListener('click', popaboutdisap);

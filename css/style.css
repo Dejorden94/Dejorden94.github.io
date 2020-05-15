@@ -33,21 +33,23 @@ footer {
   justify-content: center;
   bottom:0px;
   width: 100%;
-  height:50px;
-  background:#0f1112;
+  height:60px;
+  background: black;
 }
 .linkFooter{
-  margin-left: 10px;
+  margin: 0 0 0 10px;
 }
 .iconsFooter{
-  width: 55px;
-  height: 45px;
+  object-fit: contain;
+  color: white;
+  width: 65px;
+  height: 55px;
 }
 .iconsFooter:hover{
   border-bottom:2px solid lightblue
 }
 #about{
-  background: white;
+  background: black;
 }
 #abouttekst{
   float: left;
@@ -66,12 +68,11 @@ footer {
   display: block;
 }
 .Icons {
-  object-fit: cover;
+  object-fit: contain;
   width: 65px;
   height: 75px;
   background: rgba(0, 0, 0, 0.0);
   margin: 10px;
-  padding: 2px;
   border-radius: 3px;
   transition: all 0.15s ease-in-out;
   border: 1px solid transparent;
@@ -100,8 +101,8 @@ footer {
 }
 /*Bron voor scaling:https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_resize */
 #PopUpAbout{
-  width: 700px;
-  height:400px; 
+  width: 800px;
+  height: 450px; 
   display: none;
   border: 2px solid;
   overflow: auto;
@@ -111,8 +112,8 @@ footer {
   max-height: 500px;*/
 }
 #PopUpWerk{
-  width: 700px;
-  height:400px; 
+  width: 800px;
+  height:450px; 
   display: none;
   border: 2px solid;
   display: none;
@@ -161,6 +162,24 @@ footer {
   position: absolute;
   display: none;
 }
+#externalLink{
+  margin-top: 10px;
+  margin-left: 55px;
+  height: 20px;
+  width: 20px;
+  float: right;
+  position: absolute;
+  display: none;
+}
+#externalLinkAbout{
+  margin-top: 10px;
+  margin-left: 55px;
+  height: 20px;
+  width: 20px;
+  float: right;
+  position: absolute;
+  display: none;
+}
 #closeButtonWerk{
   margin-top: 10px;
   margin-left: 15px;
@@ -175,7 +194,7 @@ footer {
 #bodyWerk{
   overflow: scroll;
   height: unset;
-  background: linear-gradient(#6e4b99, #27358a);;
+  background: linear-gradient(#6e4b99, #27358a);
 }
 #headerWerk{
   display: flex;
@@ -202,4 +221,20 @@ footer {
   object-fit: cover;
   width: 200px;
   height: 300px;
+}
+/*Hieronder vindt je de css voor de about tab.*/
+#about{
+  overflow: scroll;
+  height: unset;
+  background: linear-gradient(#6e4b99, #27358a);
+}
+main{
+  display: flex;
+  justify-content: center;
+}
+section, article{
+  margin: 100px 0 50px 0;
+  width: 70vw;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 }
