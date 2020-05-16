@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 *{
+  margin: 0;
+  padding: 0;
   font-family: 'Raleway', sans-serif;
   color: white;
 }
@@ -36,6 +38,7 @@ footer {
   height:60px;
   background: black;
 }
+
 .linkFooter{
   margin: 0 0 0 10px;
 }
@@ -46,6 +49,7 @@ footer {
   height: 55px;
 }
 .iconsFooter:hover{
+  display: block;
   border-bottom:2px solid lightblue
 }
 #about{
@@ -233,8 +237,12 @@ main{
   justify-content: center;
 }
 section, article{
-  margin: 100px 0 50px 0;
+  margin: 75px 0 0 0;
   width: 70vw;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+}
+main h3{
+  font-style: italic;
+  font-weight: bolder;
 }
