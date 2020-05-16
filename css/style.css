@@ -226,6 +226,19 @@ footer {
   width: 200px;
   height: 300px;
 }
+.werkAfbeelding{
+  margin: 50px 25px 0px 0px;
+  border-radius: 10px;;
+  object-fit: cover;
+  width: 20em;
+  height: 15em;
+}
+.werkText{
+  text-align: left;
+}
+.werkText:nth-child(2){
+  text-align: right;
+}
 /*Hieronder vindt je de css voor de about tab.*/
 #about{
   overflow: scroll;
