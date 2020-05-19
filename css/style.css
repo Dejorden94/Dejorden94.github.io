@@ -260,3 +260,8 @@ main h3{
   font-weight: bolder;
   margin: 50px 0 100px 0;
 }
+video{
+  margin: 50px 100px 75px 0;
+  width: 30em;
+  height: 20em;
+}
