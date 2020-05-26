@@ -239,6 +239,10 @@ footer {
 .werkText:nth-child(2){
   text-align: right;
 }
+
+a, h2{
+  margin: 0 0 50px 0;
+}
 /*Hieronder vindt je de css voor de about tab.*/
 #about{
   overflow: scroll;
