@@ -63,6 +63,7 @@ footer {
   max-height: 200px;
   max-width: 600px;
 }
+
 #linkdIn{
   text-decoration: none;
   display: block;
@@ -120,8 +121,8 @@ footer {
   margin: 0;
   position: absolute;
 }
-.softwareKnw, h3{
-  margin: 0 0 20px 0!important;
+#softwareKnw h3{
+  margin: 0 0 20px 0;
 }
 .softwareKnw, li{
   margin: 0 0 5px 0;
