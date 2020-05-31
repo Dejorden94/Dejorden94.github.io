@@ -289,6 +289,10 @@ video{
 }
 @media (max-width:950px){
   .werkText{
-    max-width: 35em;;
+    max-width: 30em;
+    margin: 0 1em 0 1em;
+  }
+  .werkAfbeelding{
+    margin: 2em 1em 0 1em;
   }
 }
