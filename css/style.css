@@ -21,6 +21,7 @@ p{
   font-size: 14px;
 }
 body {
+  /*Brons achtergrond animatie:https://codepen.io/P1N2O/pen/pyBNzX*/
   overflow: hidden;
   background: linear-gradient(-45deg, rgb(1, 43, 133), rgb(2, 9, 41), rgb(1, 43, 133), rgb(2, 9, 41));
 	background-size: 400% 400%;
