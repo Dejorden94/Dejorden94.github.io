@@ -1,18 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: white;
+}
+h1, h2, h3{
+  font-family: 'Raleway', sans-serif;
 }
 body {
   overflow: hidden;
-  background: linear-gradient(#6e4b99, #27358a);
+  background: linear-gradient(#03286C, #070F33);
   /*background-image: url("images/achtergrond.jpg");*/
   background-size: cover;
-  height: 95vh;
+  height: 100vh;
   width: 100vw;
   -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+}
+#backgroundGraphic{
+  z-index: -10;
+  top: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 figure{
   z-index: -10;
@@ -36,20 +47,20 @@ footer {
   bottom:0px;
   width: 100%;
   height:60px;
-  background: black;
+  background-color: rgba(97, 99, 112, 0.9);
 }
 
 .linkFooter{
   margin: 0 0 0 10px;
 }
 .iconsFooter{
+  opacity: 1!important;
   object-fit: contain;
   color: white;
   width: 65px;
   height: 55px;
 }
 .iconsFooter:hover{
-  display: block;
   border-bottom:2px solid lightblue
 }
 #about{
@@ -69,6 +80,14 @@ footer {
   display: block;
 }
 #gitHub{
+  text-decoration: none;
+  display: block;
+}
+#mail{
+  text-decoration: none;
+  display: block;
+}
+#cv{
   text-decoration: none;
   display: block;
 }
@@ -162,7 +181,7 @@ footer {
   width:100%;
   height: 370px; 
   border-radius: 5px 5px 0 0;
-  border-top: 40px solid gray;
+  border-top: 40px solid white;
   display: none;
 }
 #popArtWerk{
@@ -172,7 +191,7 @@ footer {
   width:100%;
   height: 370px; 
   border-radius: 5px 5px 0 0;
-  border-top: 40px solid gray;
+  border-top: 40px solid white;
   display: none;
 }
 #closeButton{
@@ -216,7 +235,7 @@ footer {
 #bodyWerk{
   overflow: scroll;
   height: unset;
-  background: linear-gradient(#6e4b99, #27358a);
+  background: linear-gradient(#03286C, #070F33);
 }
 #headerWerk{
   display: flex;
@@ -234,8 +253,18 @@ footer {
 }
 .werkGallerij{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   
+}
+.werkGallerij a{
+  text-decoration: none;
+}
+.werkGallerij img{
+  border-style: solid;
+  border-color: turquoise;
+}
+a p{
+  text-align: left;
 }
 .werkThumbnail{
   margin: 50px 25px 0px 0px;
@@ -262,7 +291,7 @@ a, h2{
 #about{
   overflow: scroll;
   height: unset;
-  background: linear-gradient(#6e4b99, #27358a);
+  background: linear-gradient(#03286C, #070F33);
 }
 main{
   display: flex;
