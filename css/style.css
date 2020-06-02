@@ -109,6 +109,10 @@ footer {
   display: block;
 }
 #cv{
+  position: absolute;
+  top: 0;
+  left: 85px;
+  float: right;
   text-decoration: none;
   display: block;
 }
